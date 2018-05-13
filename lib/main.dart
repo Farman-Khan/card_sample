@@ -27,7 +27,7 @@ class MyHomePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               new MyCard(
-                  title: new Text("I Love Flutter", style: new TextStyle(fontSize: 18.0, color: Colors.green, fontStyle: FontStyle.italic)),
+                  title: new Text("I love Flutter", style: new TextStyle(fontSize: 18.0, color: Colors.green, fontStyle: FontStyle.italic)),
                   icon: new Icon(Icons.favorite, color: Colors.red)),
               new MyCard(title: new Text("I am at home", style: new TextStyle(fontSize: 18.0, color: Colors.red, fontStyle: FontStyle.italic)),
                   icon: new Icon(Icons.home, color: Colors.blue)),
